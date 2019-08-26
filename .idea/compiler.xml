@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="pal-tracker.main" target="11" />
+      <module name="pal-tracker.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
