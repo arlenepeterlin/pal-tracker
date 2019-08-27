@@ -7,19 +7,20 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicLong;
 
 @Repository
 public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
-    private long counter = 1L;
-    private Map<Long,TimeEntry> timeEntries = new HashMap<>();
+    private AtomicLong counter = new AtomicLong(1);
+    private Map<Long,TimeEntry> timeEntries = new ConcurrentHashMap<>();
 
     @Override
     public TimeEntry create(TimeEntry timeEntry) {
-        timeEntry.setId(counter);
-        timeEntries.put(counter,timeEntry);
-        TimeEntry result = timeEntries.get(counter);
-        counter++;
+        timeEntry.setId(counter.getAndIncrement());
+        timeEntries.put(timeEntry.getId(),timeEntry);
+        TimeEntry result = timeEntries.get(timeEntry.getId());
         return result;
     }
 
