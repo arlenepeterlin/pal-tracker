@@ -4,6 +4,7 @@ import com.mysql.cj.jdbc.MysqlDataSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
 
 import javax.sql.DataSource;
 
@@ -15,6 +16,7 @@ public class PalTrackerApplication {
     }
 
     @Bean
+    @Primary
     public TimeEntryRepository timeEntryRepository(DataSource dataSource){
         return new JdbcTimeEntryRepository(dataSource);
     }

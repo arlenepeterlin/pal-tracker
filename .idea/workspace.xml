@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3606e1d7-86c2-4dd3-b845-4fddcbf935bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryHealthIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/pal-tracker.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/pal-tracker.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/pal-tracker.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/pal-tracker.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/PalTrackerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/PalTrackerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -46,7 +60,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6226041">
+    <splitter split-orientation="horizontal" split-proportion="0.4527429">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -67,7 +81,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/InMemoryTimeEntryRepository.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="154">
-                  <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+                  <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#682#683#0" expanded="true" />
@@ -82,11 +96,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="32" />
+                <state relative-caret-position="390">
+                  <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
                   <folding>
-                    <element signature="e#1177#1178#0" expanded="true" />
-                    <element signature="e#1207#1208#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -119,7 +132,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/PalTrackerApplication.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="150">
@@ -131,10 +144,24 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/JdbcTimeEntryRepository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-765">
-                  <caret line="30" column="45" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="45" />
+                <state relative-caret-position="194">
+                  <caret line="93" selection-start-line="93" selection-end-line="93" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryHealthIndicator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#457#458#0" expanded="true" />
+                    <element signature="e#507#508#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -195,8 +222,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryControllerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1455">
-                  <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+                <state relative-caret-position="-495">
+                  <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
                 </state>
               </provider>
             </entry>
@@ -204,8 +231,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/build.gradle">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="42" column="153" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="153" />
+                <state relative-caret-position="255">
+                  <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -214,7 +241,7 @@
             <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/TimeEntryApiTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="360">
-                  <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+                  <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -242,19 +269,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntry.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/InMemoryTimeEntryRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/WelcomeControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/InMemoryTimeEntryRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/databases/tracker/create_databases.sql" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/databases/tracker/migrations/V1__initial_schema.sql" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/JdbcTimeEntryRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/TimeEntryApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/PalTrackerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/JdbcTimeEntryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryHealthIndicator.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -368,7 +396,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567010649217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567023559700" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -551,7 +579,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16270061" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20033205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,7 +593,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32937366" />
@@ -626,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/InMemoryTimeEntryRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -658,17 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -679,7 +689,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/InMemoryTimeEntryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
@@ -714,34 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/JdbcTimeEntryRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/JdbcTimeEntryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/TimeEntryApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="42" column="153" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="153" />
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -749,6 +735,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/JdbcTimeEntryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/JdbcTimeEntryRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryHealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
         </state>
       </provider>
     </entry>
